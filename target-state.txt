@@ -1,0 +1,48 @@
+[Passwort]
+MinimumPasswordLength = 12
+PasswordComplexity = 1
+PasswordHistorySize = 10
+MinimumPasswordAge = 2
+MaximumPasswordAge = 90
+ClearTextPassword = 0
+MACHINE\System\CurrentControlSet\Services\LanmanWorkstation\Parameters\EnablePlainTextPassword=4,1
+[Account]
+LockoutBadCount = 4
+ResetLockoutCount = 15
+LockoutDuration = 5
+EnableAdminAccount = 0
+EnableGuestAccount = 0
+MACHINE\System\CurrentControlSet\Control\Lsa\LimitBlankPasswordUse=4,1
+NewAdministratorName = "YfFcKmIxaEd5cEGm8kVG"
+NewGuestName = "FEvqelth3j0gHwpoWSnb"
+[Kommunikation]
+MACHINE\System\CurrentControlSet\Services\LanmanWorkstation\Parameters\EnableSecuritySignature=4,1
+MACHINE\System\CurrentControlSet\Services\LanmanWorkstation\Parameters\RequireSecuritySignature=4,1
+[Audit&Logging]
+AuditAccountManage = 1
+AuditPolicyChange = 1
+AuditSystemEvents = 1
+AuditProcessTracking = 1
+[Anti-Malware]
+AMServiceEnabled = True
+AntispywareEnabled = True
+AntivirusEnabled = True
+BehaviorMonitorEnabled = True
+IsTamperProtected = True
+RealTimeProtectionEnabled = True
+[Firewall]
+Enabled = True
+NotifyOnListen = True
+LogFileName = %systemroot%\system32\LogFiles\Firewall\pfirewall.log
+LogMaxSizeKilobytes = 4096
+LogAllowed = True
+LogBlocked = True
+[custom registry state]
+EnableMulticast = 0
+Start = 4
+[installed program (= program version)]
+Oracle VM VirtualBox Guest Additions 7.0.8 = 7.0.8.156879
+IIS Express Application Compatibility Database for x64 = 
+Adobe Acrobat (64-bit) = 24.0
+IIS Express Application Compatibility Database for x86 = 
+
